@@ -1,0 +1,38 @@
+
+.h1{
+    margin-right: 100px;
+    font-size: 5rem;
+    text-align: justify;
+    margin-left: 100px;
+    font-weight: bolder;
+    margin-top: 100px;
+}  
+
+.para{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .h1{
+        text-align: center;
+        /* margin-left: 0; */
+        font-size: 30px;
+        text-decoration: none;
+        margin-top: 0;
+    }
+
+    .para{
+        text-align:justify;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}

@@ -4,6 +4,7 @@ function Home() {
 
   const [name,setName] = useState('Register Now');
   const  [click, setClick] = useState(false);
+  // const  [count, setCount] = useState(0);
   // const [hov,setHov] =useState(false);
   // const [bg,setBg] = useState('rgb(7, 43, 79)');
 
@@ -17,12 +18,12 @@ function Home() {
 
   const eventHandling = () => {
         setClick(true)
-        if (setClick){
+        if (click==true){
           setName("Ready to register... 👋");
           setClick(false);
         }
 
-        if(setClick==false){
+        if(click==false){
           setName("Register Now");
         }
 

@@ -84,12 +84,16 @@
 }
 
 .custom-shape-divider-bottom-1649229788 .shape-fill {
-    fill: #FFFFFF;
+    fill: #FFFFFF
 }
 
 @media screen and (max-width: 768px) {
     .custom-shape-divider-top-1649230051{
         width: calc(80% + 90px);
+    }
+
+    .Home{
+        width: 104%;
     }
     
 }
