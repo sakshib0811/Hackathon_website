@@ -1,6 +1,5 @@
 import React from 'react'
 import "./About.css"
-import underline from "./images/underline.jpg"
 function About() {
   return (
     <div className='about'>
