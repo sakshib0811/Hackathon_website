@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import Nav from './Components/Nav';
 import Partner from './Components/Partner';
 import Prize from './Components/Prize';
+import Venue from './Components/Venue';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Prize />  
       <Partner />
+      <Venue />
     </div>
   );
 }

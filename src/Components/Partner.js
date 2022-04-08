@@ -19,7 +19,7 @@ function Partner() {
   return (
     <div>
         <h2 className='partner'>
-        HACKATHON PARTNERs
+        HACKATHON PARTNERS
         </h2>
         
         <div className="sub_partner">
