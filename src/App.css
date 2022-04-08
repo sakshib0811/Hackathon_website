@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: Outfit, sans-serif;
+  /* font-family: Outfit, sans-serif; */
 }
 
 .App-logo {
@@ -37,3 +37,4 @@
     transform: rotate(360deg);
   }
 }
+

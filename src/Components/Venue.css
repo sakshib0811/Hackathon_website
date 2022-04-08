@@ -4,10 +4,50 @@
 
 .venue_head{
     font-size: 5rem;
+    text-align: initial;
+    margin-left: 50px;
+}
+
+.venue1{
+    display: flex;
+    gap: 3rem;
+}
+
+.venue_img{
+    width: 70%;
+    height: 400px;
+    margin-left: 40px;
+    margin-bottom: 30px;
 }
 
 .address{
     margin-top: 70px;
     font-weight: 6;
-    font-size: 15px;
+    font-size: 20px;
+    text-align: initial;
+}
+
+.aloft{
+    margin-top: -64px;
+    font-size: 35px;
+    font-weight: 350;
+}
+
+.dir{
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 42px;
+    height: 50px;
+    background-color: rgb(76, 223, 191);
+    border: white;
+    width: 30%;
+    transition: transform .2s;
+}
+
+.dir:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+    cursor: pointer;
+
 }
