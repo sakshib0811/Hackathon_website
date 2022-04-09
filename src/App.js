@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./Components/About";
+import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Nav from "./Components/Nav";
 import Partner from "./Components/Partner";
@@ -17,6 +18,7 @@ function App() {
       <Partner />
       <User />
       <Venue />
+      <Footer />
     </div>
   );
 }

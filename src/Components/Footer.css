@@ -1,0 +1,38 @@
+.footer{
+    margin-top: 80px;
+    height:1.5px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+
+.subfooter{
+    display: flex;
+    gap: 75rem;
+    padding-bottom: 50px;
+}
+
+.footer_para{
+    padding-top: 24px;
+    display: flex;
+    gap: 5rem;
+    padding-left: 20px;
+}
+
+.footer_icon{
+    padding-top: 24px;
+    display: flex;
+    gap: 3rem;
+}
+
+.footer_data{
+    cursor: pointer;
+}
+
+.footer_data:hover{
+    color:rgb(90, 87, 87);
+    font-weight: 500;
+}

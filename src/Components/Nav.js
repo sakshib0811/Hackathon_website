@@ -1,10 +1,10 @@
-import React, { useState }  from 'react'
-import "./Nav.css"
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./Nav.css";
 // import { Link } from 'react-router-dom';
 import { FaEthereum } from "react-icons/fa";
 function Nav() {
-
-    const [active, setActive] = useState("nav__menu");
+  const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
   const navToggle = () => {
     if (active === "nav__menu") {
@@ -17,11 +17,18 @@ function Nav() {
     } else setIcon("nav__toggler");
   };
 
-  return (
+  const navigate = useNavigate();
 
+  const submitLink = () => {
+    navigate("/", { replace: true });
+  };
+
+  return (
     <nav className="nav">
       <a href="#" className="nav__brand">
-        <h1><FaEthereum /> ETH Bangalore</h1>
+        <h1 onClick={submitLink}>
+          <FaEthereum /> ETH Bangalore
+        </h1>
       </a>
       <ul className={active}>
         <li className="nav__item">
@@ -61,10 +68,7 @@ function Nav() {
         <div className="line3"></div>
       </div>
     </nav>
-
-  )
-
-  
+  );
 }
 
-export default Nav
+export default Nav;
