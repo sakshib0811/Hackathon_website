@@ -31,14 +31,14 @@ function Nav() {
         </h1>
       </a>
       <ul className={active}>
-        <li className="nav__item">
+        <li className="nav__item" onClick={submitLink}>
           <a href="#" className="nav__link">
             Home
           </a>
         </li>
         <li className="nav__item">
           <a href="#" className="nav__link">
-            Sponsors
+            About
           </a>
         </li>
         <li className="nav__item">
@@ -48,17 +48,17 @@ function Nav() {
         </li>
         <li className="nav__item">
           <a href="#" className="nav__link">
-            Theme
+            Partners
           </a>
         </li>
         <li className="nav__item">
           <a href="#" className="nav__link">
-            Workshops
+            Speakers
           </a>
         </li>
         <li className="nav__item">
           <a href="#" className="nav__link">
-            How it Work
+            Venue
           </a>
         </li>
       </ul>

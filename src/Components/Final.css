@@ -1,0 +1,14 @@
+.final{
+    display: flex;
+}
+
+.final_p{
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 140px;
+    font-family: Aardvark Cafe Regular;
+}
+
+.final_img{
+    height: 602px;
+}

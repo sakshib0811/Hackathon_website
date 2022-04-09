@@ -34,6 +34,7 @@
     font-size: 35px;
     /* margin-top: 90px; */
     padding-top: 50px;
+    font-family: BonJovi Regular;
 }
 
 .heading{
@@ -45,6 +46,7 @@
 .sub_title{
     /* font-weight: bolder; */
     color: black;
+    font-family: BonJovi Regular;
 }
 
 .btn{
