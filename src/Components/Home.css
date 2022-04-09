@@ -120,5 +120,23 @@
     .Home{
         width: 104%;
     }
+    .sub_upper_title{
+        font-size: 23px;
+    }
+    .heading{
+        font-weight: 600;
+        font-size: 28px;
+        margin-left: -30px;
+    }
+    .sub_title{
+        font-size: small;
+        margin-right: 20px;
+    }
+    .spons{
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 25px;
+    }
     
 }
