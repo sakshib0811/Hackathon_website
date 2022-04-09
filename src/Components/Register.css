@@ -1,0 +1,91 @@
+.top{
+    background-color: whitesmoke;
+}
+
+.signup{
+    margin-left: 81px;
+    margin-right: 68px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    padding-bottom: 70px;
+}
+
+.container{
+    margin-left: 122px;
+    margin-right: 76px;
+}
+
+.signup-content{
+    border-style: solid;
+    font-family: -webkit-body;
+    border-width: unset;
+    border-color: gainsboro;
+    border-width: medium;
+    display: flex;
+    background-color: white;
+}
+
+.signupform{
+    border-bottom-width: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.register-form{
+    border: none;
+  border-bottom: 2px solid rgb(186, 186, 186);
+  width: max-content;
+}
+
+.form-title{
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+input{
+    border-style: none;
+}
+
+.reg_img{
+    height: 474px;
+}
+
+.btn1:hover{
+    background-color: rgb(5, 151, 119);
+}
+
+@media screen and (max-width: 768px){
+
+    .signup{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 90px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .container{
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .signup-content{
+        flex-direction: column-reverse;
+        border-width: small;
+    }
+
+    .signupform{
+        border-bottom-width: 30px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 60px;
+        padding-right: 0px;
+    }
+    .reg_img{
+        height: 100%;
+    }
+
+}
